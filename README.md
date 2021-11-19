@@ -6,7 +6,7 @@ This repository contains documentation and scripts to help clinical labs deploy 
 
 If you don't have `nextflow` and `singularity`, see section below. If you do, use them to test Sarek on its included test data:
 ```bash
-nextflow run -bg -profile test,singularity -work-dir nf_work nf-core/sarek --tools MuTect2 --outdir test_results
+nextflow run -bg -profile test,singularity -work-dir nf_work nf-core/sarek --tools Mutect2 --outdir test_results
 ```
 
 ## Install Nextflow and Singularity
